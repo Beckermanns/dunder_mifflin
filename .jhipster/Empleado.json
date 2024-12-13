@@ -1,0 +1,38 @@
+{
+  "annotations": {
+    "changelogDate": "20241213050649"
+  },
+  "fields": [
+    {
+      "fieldName": "nombreEmpleado",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "apellidoEmpleado",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "telefono",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "correo",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Empleado",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "nombreDepartamento",
+      "otherEntityName": "departamento",
+      "otherEntityRelationshipName": "empleado",
+      "relationshipName": "departamento",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "no"
+}

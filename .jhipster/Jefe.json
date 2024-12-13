@@ -1,0 +1,29 @@
+{
+  "annotations": {
+    "changelogDate": "20241213050836"
+  },
+  "fields": [
+    {
+      "fieldName": "nombreJefe",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "apellidoJefe",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "telefonoJefe",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "correoJefe",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Jefe",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "no"
+}
